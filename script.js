@@ -2,6 +2,9 @@
 // No external libs. All interactive behavior for the site.
 // Works mobile-first. Handles pages, PIN, gallery swipe, particles, hearts, confetti/fireworks, music playback.
 
+// Diagnostic log to confirm script execution in deployed pages (no functional change)
+console.log('noorab-birthday: script.js loaded');
+
 (function () {
   // Run only after DOM is parsed to avoid timing-related null references.
   if (document.readyState === 'loading') {
