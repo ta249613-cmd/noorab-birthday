@@ -12,18 +12,15 @@
   <canvas id="bgCanvas" class="bg-canvas"></canvas>
   <div id="floating-hearts" aria-hidden="true"></div>
 
-
   <!-- App container -->
   <main id="app" class="app">
-
 
     <!-- PAGE 1: LOCK SCREEN -->
     <section id="page-lock" class="page active" aria-label="Lock screen">
       <div class="glass-card lock-card">
         <div class="profile-wrap" role="button" tabindex="0" id="profileBtn" aria-pressed="false" aria-label="Tap to reveal passkey">
-          <img src="images/profile.jpg" alt="Noorab Sultan" class="profile-img" id="profileImg">
+          <img src="profile.jpg" alt="Noorab Sultan" class="profile-img" id="profileImg">
         </div>
-
 
         <h1 class="status-lock">🔒 LOCKED</h1>
         <h2 class="name">Noorab Sultan ❤️</h2>
@@ -32,29 +29,25 @@
       <div class="footer-hint">Tap the picture to continue</div>
     </section>
 
-
     <!-- PAGE 2: PIN SCREEN -->
     <section id="page-pin" class="page" aria-label="PIN screen">
       <div class="glass-card pin-card">
         <div class="pin-header">
-          <img src="images/profile.jpg" alt="Noorab Sultan" class="pin-profile">
+          <img src="profile.jpg" alt="Noorab Sultan" class="pin-profile">
           <div>
             <h3>Noorab Sultan</h3>
             <p class="sub">Enter Passkey</p>
           </div>
         </div>
 
-
         <div class="pin-display" id="pinDisplay" aria-live="polite">
           <div class="dots" id="pinDots" aria-hidden="true"></div>
           <div class="pin-message" id="pinMessage">Enter your 4-digit passkey</div>
         </div>
 
-
         <div class="keypad" id="keypad" role="group" aria-label="Numeric keypad">
           <!-- digits will be generated in DOM by JS for accessibility ordering -->
         </div>
-
 
         <div class="pin-actions">
           <button id="pinClear" class="btn ghost">Clear</button>
@@ -62,7 +55,6 @@
         </div>
       </div>
     </section>
-
 
     <!-- PAGE 3: WELCOME PAGE -->
     <section id="page-welcome" class="page" aria-label="Welcome">
@@ -72,7 +64,6 @@
         <button id="beginBtn" class="btn primary large">Begin Surprise</button>
       </div>
     </section>
-
 
     <!-- PAGE 4: BIRTHDAY PAGE -->
     <section id="page-birthday" class="page" aria-label="Birthday">
@@ -89,15 +80,12 @@
             <div class="age" id="ageYears">—</div>
           </div>
 
-
           <p class="wish">Wishing you a day filled with love, laughter and dreams come true.</p>
-
 
           <button id="memoriesBtn" class="btn primary">Special Memories</button>
         </div>
       </div>
     </section>
-
 
     <!-- PAGE 5: PHOTO GALLERY -->
     <section id="page-gallery" class="page" aria-label="Photo gallery">
@@ -106,30 +94,26 @@
         <p class="sub">Swipe to browse</p>
       </div>
 
-
       <div class="carousel-container">
         <div class="carousel" id="carousel" role="list">
-          <img src="images/profile.jpg" alt="Profile" class="gallery-img" role="listitem">
-          <img src="images/1.jpg" alt="Memory 1" class="gallery-img" role="listitem">
-          <img src="images/2.jpg" alt="Memory 2" class="gallery-img" role="listitem">
-          <img src="images/3.jpg" alt="Memory 3" class="gallery-img" role="listitem">
-          <img src="images/4.jpg" alt="Memory 4" class="gallery-img" role="listitem">
-          <img src="images/5.jpg" alt="Memory 5" class="gallery-img" role="listitem">
+          <img src="profile.jpg" alt="Profile" class="gallery-img" role="listitem">
+          <img src="1.jpg" alt="Memory 1" class="gallery-img" role="listitem">
+          <img src="2.jpg" alt="Memory 2" class="gallery-img" role="listitem">
+          <img src="3.jpg" alt="Memory 3" class="gallery-img" role="listitem">
+          <img src="4.jpg" alt="Memory 4" class="gallery-img" role="listitem">
+          <img src="5.jpg" alt="Memory 5" class="gallery-img" role="listitem">
         </div>
       </div>
-
 
       <div class="gallery-controls">
         <button id="prevImg" class="btn ghost">◀</button>
         <button id="nextImg" class="btn ghost">▶</button>
       </div>
 
-
       <div class="gallery-actions">
         <button id="openLetterBtn" class="btn primary">Love Letter</button>
       </div>
     </section>
-
 
     <!-- PAGE 6: LOVE LETTER -->
     <section id="page-letter" class="page" aria-label="Love letter">
@@ -142,53 +126,4 @@
                 <pre class="letter-text" id="letterText">
 Happy birthday, Noorab!
 
-
-You make my world infinitely brighter just by being in it.
-
-
-I'm so lucky to call you mine and to celebrate the wonderful person you are today.
-
-
-I hope your day is filled with all the love, laughter, and happiness you deserve.
-
-
-I love you, babe.
-
-
-Forever Yours,
-
-
-Touqeer ❤️
-                </pre>
-                <button id="celebrateBtn" class="btn primary">Celebrate</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- PAGE 7: FINAL -->
-    <section id="page-final" class="page" aria-label="Final celebration">
-      <div class="final-stage glass-card">
-        <h1 class="neon big">Happy Birthday Noorab Sultan ❤️</h1>
-        <p class="final-text">May Allah bless you with happiness, success, good health and endless smiles.</p>
-        <p class="final-text small">I Love You ❤️<br>Touqeer</p>
-      </div>
-      <canvas id="confettiCanvas" class="confetti-canvas" aria-hidden="true"></canvas>
-    </section>
-
-
-  </main>
-
-
-  <!-- Hidden audio, will start only on correct PIN (a user gesture) -->
-  <audio id="bgMusic" src="music/birthday.mp3" loop preload="auto"></audio>
-
-
-  <script src="script.js" defer></script>
-</body>
-</html>
-
-16
+Y
